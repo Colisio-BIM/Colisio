@@ -268,14 +268,25 @@ calculation report, and **Fabrication** marks, cut lists and assembly drawings.
 *Systems tab: water, sewer, storm water, gas, electrical and data in the same model, with the architecture faded.*
 
 - **Plumbing**: piping for cold and hot water, recirculation, sewer, grease, vent, storm water, reuse water and fire;
-  gutters; **Design** of cold water (NBR 5626) and sewer (NBR 8160); **pipe lines** for water — solvent-weld PVC, CPVC,
-  PPR PN 20/25, PEX and HDPE —, each with its own diameter table: sizing picks the diameter the line makes and uses its
-  inner diameter, a hot-water run in a cold-only line is flagged, and the bill of materials comes in bars or coils;
-  fittings are generated where runs meet, plus a coupling per pipe bar, caps on capped ends and an inspection tee at the
-  foot of every stack; **Embed** exposed pipes into walls; solar water
+  gutters; **Design** of cold water (NBR 5626) and sewer (NBR 8160); **pipe lines** for every system — solvent-weld
+  PVC, CPVC, PPR PN 20/25, PEX and HDPE for water; normal and reinforced series PVC for sewer, vent and storm water;
+  copper class A/I and PEX-AL-PEX multilayer for gas; threaded galvanized steel for fire; yellow corrugated, orange
+  reinforced, rigid threaded and HDPE conduit —, each with its own diameter table: sizing picks the diameter the line
+  makes and uses its inner diameter, a run in a line that does not suit the system is flagged, and the bill of
+  materials comes in bars or coils; **Embed** exposed pipes into walls; solar water
   heating (NBR 15569); rainwater harvesting (NBR 15527) and greywater reuse (NBR 16783); septic tank and disposal
   (NBR 7229 / 13969); inspection boxes.
-- **Check**: system check (open ends, unconnected fixtures, separated networks), **Embed risers** in walls (shafts
+- **Market parts**: the model is what gets bought and built. **Standardize from catalog** moves every run to the type of
+  its system's line at its diameter (never shrinking it), and every fitting carries its purchase name and the line's
+  socket dimensions — "90° solvent-weld elbow 25 mm", "reducing tee 32 × 25 mm", "copper 90° elbow 22 mm", a long-radius
+  bend at the foot of each stack, 45° wyes on horizontal sewer runs, the elbow with brass female thread at each outlet,
+  a ball valve before each gas appliance, a junction box at each conduit branch. A fitting is its own part: clicking it
+  selects the fitting alone, with its own thumbnail and properties, and the pipe stops at the bottom of its socket.
+  **Valves** places gate valves at the start of each riser and branch and at the heater inlet, and pressure valves at
+  each shower (NBR 5626), with their threaded adapters; **45° branches** redraws branches that reach a horizontal
+  collector at 90° (NBR 8160).
+- **Check**: system check (open ends, unconnected fixtures, separated networks, generic types with no market part,
+  missing valves, 90° branches on horizontal sewer runs), **Embed risers** in walls (shafts
   only where allowed), **Connect networks**, **Slopes** without counter-falls, **Reroute crossings** in the ceiling,
   **Beam penetrations** checked by NBR 6118, and **Apply calculation** to set all calculated diameters at once.
 - **Air conditioning**: rectangular, round and flexible ducts, air terminals, condensate drains, refrigerant lines,
