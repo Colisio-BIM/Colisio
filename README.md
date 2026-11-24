@@ -6,7 +6,7 @@ quantities and budget, drawings and coordination, in one model.**
 [![Latest release](https://img.shields.io/github/v/release/Colisio-BIM/Colisio?label=download&color=1a73e8)](https://github.com/Colisio-BIM/Colisio/releases/latest)
 ![Platform](https://img.shields.io/badge/platform-Windows%2010%20%7C%2011%20(64--bit)-0078d4)
 
-![Colisio — a house with architecture, concrete structure and building systems in the 3D view](images/tab-architecture.png)
+![Colisio — a three-storey row house in cutaway: architecture, concrete structure and building systems in the 3D view](images/colisio-sobrado.png)
 
 > **Language and codes.** The interface is in **Brazilian Portuguese** or **English** (File → Settings → Interface). The
 > calculations follow the Brazilian **ABNT NBR** standards, so drawings, sheets and calculation reports come out in
@@ -14,12 +14,13 @@ quantities and budget, drawings and coordination, in one model.**
 
 ## Watch: a house built and calculated
 
-![A house drawn in Colisio wall by wall, its roof, structure and systems, then calculated: the bending moments over the 3D view](images/colisio-casa-didatica.gif)
+![A three-storey row house put together in Colisio discipline by discipline, then calculated: the bending moments over the 3D view](images/colisio-sobrado.gif)
 
-The teaching house of *Aprender a projetar*, drawn element by element — walls, doors and windows, floor, rooms, fixtures,
-roof, columns, beams, footings, water, sewer, storm water and gas —, completed by the engine with the electrical points
-and conduits, then calculated: the bending moments of every beam and column drawn over the 3D view, turning round.
-**[Full video (MP4, 18 s)](media/colisio-casa-didatica.mp4)**.
+A real 145 m² three-storey row house (*sobrado*), designed in Colisio, put together the way it is built — footings,
+columns, beams, slabs, stairs, walls, doors and windows, water, sewer, storm water, gas, electrical and data, the
+fittings and the roof, each level from the bottom up —, then calculated: every piece of the structure passes, and the
+bending moments of the beams and columns are drawn over the 3D view, turning round. The view is a cutaway: the party wall
+on the camera's side is hidden (Hide Element), so the inside shows. **[Full video (MP4, 17 s)](media/colisio-sobrado.mp4)**.
 
 ---
 
@@ -104,7 +105,7 @@ off.
 
 ## Screenshots
 
-All on the teaching house of *Aprender a projetar*, calculated by the program.
+All on the house of the video, calculated by the program.
 
 | | |
 |---|---|
@@ -138,7 +139,7 @@ All on the teaching house of *Aprender a projetar*, calculated by the program.
 
 ### Arquitetura (Architecture)
 
-![Arquitetura tab — the teaching house in 3D](images/tab-architecture.png)
+![Arquitetura tab — the house in 3D, in cutaway](images/tab-architecture.png)
 
 - **Construir**: walls (compound layers, curtain walls), doors and windows, columns, components
   (furniture, fixtures, equipment), roofs by footprint and by extrusion, floors and ceilings.
@@ -345,7 +346,7 @@ needed.
 ## Try it with the teaching house
 
 **Gestão → Ajuda → Aprender a projetar → Aprender com um exemplo** opens the teaching house at the start of a track, or
-complete — architecture, structure and every system — to study and calculate, as in the video above.
+complete — architecture, structure and every system — to study and calculate.
 
 ---
 
